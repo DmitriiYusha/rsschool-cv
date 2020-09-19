@@ -1,0 +1,17 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.photo {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: initial;
+    border-radius: 15px;
+}
