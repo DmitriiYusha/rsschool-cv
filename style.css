@@ -579,3 +579,10 @@ a:hover {
     height: 0;
 }
 
+.proj {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 14px;
+    font-size: 23px;
+    list-style-type: none;
+}
