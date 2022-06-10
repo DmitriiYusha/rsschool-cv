@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
     line-height: 1.15;
     /* 1 */
     -webkit-text-size-adjust: 100%;
@@ -388,17 +388,17 @@ nav {
 }
 
 .navbar a:hover {
-    
-    color: black;
-  }
 
-  .navbar {
+    color: black;
+}
+
+.navbar {
     overflow: hidden;
     background-color: rgba(55, 53, 53, 0.649);
     position: fixed;
     top: 0;
     width: 1000px;
-  }
+}
 
 li {
     display: list-item;
@@ -435,6 +435,7 @@ li {
 
 
 }
+
 .osn {
     background-color: rgba(55, 53, 53, 0.649);
 }
@@ -500,10 +501,11 @@ footer {
     font-size: 25px;
     font-family: "Roboto", "Arial", sans-serif;
 }
- .textabout{
-     font-size: 25px;
-     padding: 0px 30px;
- }
+
+.textabout {
+    font-size: 25px;
+    padding: 0px 30px;
+}
 
 .centerinfo {
     display: flex;
@@ -511,7 +513,7 @@ footer {
 }
 
 .text {
-    
+
     text-align: center;
     padding: 10px 100px 10px 150px;
     font-size: 25px;
@@ -537,7 +539,7 @@ footer {
     background-color: aliceblue;
     width: 700px;
     font-family: "Roboto", "Arial", sans-serif;
-    
+
 }
 
 .top1 {
@@ -545,13 +547,9 @@ footer {
     background-color: black;
 }
 
-a {
-    color: rgb(255, 244, 244) !important;
-    
-    
-  }
 
-  a {
+.link {
+    color: rgb(255, 244, 244) !important;
     font-size: 20px;
     padding: 10px;
     text-align: center;
@@ -564,18 +562,42 @@ a {
     height: 20px;
     line-height: 20px;
 }
- 
-a:hover {
+
+.link:hover {
     font-size: 30px;
 }
 
-.educ{
+.educ {
     color: rgb(255, 255, 255);
     font-family: "Roboto", "Arial", sans-serif;
 }
 
-.footer{
-    display:contents;
+.footer {
+    display: contents;
     height: 0;
 }
 
+.proj {
+    color: black;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 23px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    height: 20px;
+    line-height: 20px;
+    justify-content: flex-start;
+    display: flex;
+    padding-left: 25px;
+}
+
+.proj:hover {
+    font-size: 30px;
+}
+
+.proj a:hover {
+
+    color: black;
+}
