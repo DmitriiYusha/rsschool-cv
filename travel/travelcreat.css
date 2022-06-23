@@ -561,7 +561,7 @@ header {
 }
 
 .pq11 {
-    width: 219px;
+    width: 225px;
     height: 18px;
     left: 216px;
     top: 619px;
@@ -583,4 +583,10 @@ header {
     text-decoration: underline;
     font-weight: bold;
     color: #0D606F;
+}
+
+
+a{
+    text-decoration: none
+    color #E5E5E5;
 }
