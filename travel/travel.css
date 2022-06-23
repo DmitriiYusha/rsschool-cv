@@ -430,7 +430,7 @@ header {
     left: 0px;
     top: 0px;
     border-radius: 0px;
-    background-image: url(MaketTravel/Basicfon.jpg);
+    background-image: url(travel/picture/Basicfon.jpg);
 
 }
 
@@ -885,11 +885,11 @@ h1 {
 
 .centrepicture {
 
-    background: url(MaketTravel/JAPAN.svg);
+    background: url(travel/picture/JAPAN.svg);
 }
 
 .rightpicture {
-    background: url(MaketTravel/USA.svg);
+    background: url(travel/picture/USA.svg);
 }
 
 .japan {
@@ -995,7 +995,7 @@ h1 {
 }
 
 .fon {
-    background-image: url(MaketTravel/boat.jpg);
+    background-image: url(travel/picture/boat.jpg);
 }
 
 .stories {
@@ -1126,7 +1126,7 @@ h1 {
 
 .fon1 {
     display: flex;
-    background-image: url(MaketTravel/boat.jpg);
+    background-image: url(travel/picture/boat.jpg);
     background-position: bottom;
     width: 1440px;
     height: 61px;
@@ -1193,7 +1193,7 @@ h1 {
 
 
 .mycursor{
-    cursor: url(MaketTravel/WOW-PNG-Free100px.png),auto;
+    cursor: url(travel/picture/WOW-PNG-Free100px.png),auto;
 }
   
 .navili:hover {
